@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+.main{max-width: 1140px;margin: 0 auto;}
+.main-menu{clear: both;overflow: hidden;padding: 20px 10px;}
+.logoClass{width: 50%;float: left;}
+.menus{width: 50%;float: right;}
+.menus ul{padding-inline-start: 0;}
+.menus li{list-style: none;display: inline-block;}
+.menus li a{text-decoration: none;color: #000;padding: 0 15px;}
+.menus li a:hover{text-decoration: none;color: #000;}
+.columns{overflow: hidden;clear: both;}
+.columns h1{font-size: 24px;margin-bottom:0px;}
+.columns p{margin-top: 5px;}
+.column1{width:33.33%;float: left;}
+.column2{width:33.33%;float: left;}
+.column3{width:33.33%;float: left;}
+.article h1{text-align: center;}
+.article{clear: both;overflow:hidden;}
+.articleCol1{width: 50%;float: left;}
+.articleCol2{width: 50%;float: left;}
+.articleCol2 img{padding-left: 30px;}
+.column1Content{padding: 0 10px;}
+.column2Content{padding: 0 10px;}
+.column3Content{padding: 0 10px;}
+button{background-color: #000;color: #fff;padding: 10px 20px;border-radius: 6px;border:none;cursor: pointer;}
+.countercol{overflow: hidden;clear: both;}
+.countercol1 button{margin: 0 10px;}
+.countercol1{width: 50%;margin-top: 50px;float: left;}
+.countercol1 h4{text-align: center;}
+.contactPage{overflow: hidden;clear: both;}
+.contactForm{width: 50%;float: left;}
+.contactForm input{height: 40px;display: block;margin-bottom:30px;width:100%;}
+.contactForm textarea{height: 100px;display: block;margin-bottom:30px;width:100%;}
+.contactForm input[type="submit"]{width: 20%;background-color: #000;color: #fff;border:none;border-radius: 6px;}
+.contactForm label{margin-bottom: 10px;display: block;}
+.formResults{width: 50%;float: left;}
+.results{padding: 0 60px;}
+.contactForm select{height: 40px;display: block;margin-bottom:30px;width:100%;}
+.countercol2 button{margin: 0 10px;}
+.countercol2{width: 50%;margin-top: 50px;float: left;}
+.countercol2 h4{text-align: center;}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
