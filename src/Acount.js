@@ -4,7 +4,7 @@ const Acount = () =>{
 
     const [acon, setAcon] = useState(0);
 
-    const Acon = setInterval(() =>{
+    const Acon = setTimeout(() =>{
         setAcon(acon+1);
     },1000);
 
