@@ -4,9 +4,6 @@ const About = () =>{
 
     const [text, setText] = useState("Default text");
 
-    const changeText = () => {
-        setText("Text changed on click..!!!");
-    }
     return(
      <>
         <p>We recommend that you check out the tic-tac-toe game before continuing with the tutorial. One of the features that you’ll notice is that there is a numbered list to the right of the game’s board. This list gives you a history of all of the moves that have occurred in the game, and it is updated as the game progresses.</p>
@@ -14,7 +11,7 @@ const About = () =>{
 
         <div className="rerender">
             <p>{text}</p>
-            <button onClick={changeText}>Re Rendering</button>
+            <button onClick={() => setText("Text has been changed using anonoymous arrow function")}>Re Rendering</button>
         </div>
      </>
     );
